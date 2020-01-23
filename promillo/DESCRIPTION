@@ -1,0 +1,17 @@
+Package: promillo
+Type: Package
+Title: Computation and Visualization of Body Alcohol Concentration (BAC)
+Version: 0.1.0
+Author: Marianna Plesiak [aut, cre]
+Maintainer: Marianna Plesiak <mariannaplesiak207@ukr.net>
+Description: Functions to compute the Body Alcohol 
+  Concentration index depending on the amount of consumed alcohol, drinking time 
+  and personal data as well as a function for visualizing of the BAC reduction 
+  within a drinking time period.
+Imports: checkmate, ggplot2, lubridate
+Suggests: testthat
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
